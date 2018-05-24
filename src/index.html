@@ -4,12 +4,16 @@
   <meta charset="utf-8">
   <title>Caesar Cipher</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Wallpoet" rel="stylesheet">
+
+
+
 </head>
 <body>
 <!-- Titulo y subtitulo -->
 <header>
 <title>Aplicación fiesta sorpresa</title>
-<h1>Bienvenido a la app "Fiesta Sopresa"</h1>
+<h1>App Fiesta Sopresa</h1>
 
 
 
@@ -17,40 +21,66 @@
 
 <section>
 
-  <p><strong>Desplazamiento</strong> (posición)</p>
+  <p><strong>Posición</strong></p>
   
 
 </section>
 
 <section>
 
-<input type="text" size="4" maxlength=""  name="desplazamiento">
+<form>
+  <select name="" id="numselect"></select>
 
 </section>
 
+
 <section>
 
-<h1>Escribir Mensaje</h1>
+<input type="" size="4" maxlength="33" name="desplazamiento">
 
-<textarea name="comentarios" rows="10" cols="40">Inserta mensaje a ocultar o descubrir</textarea>
+</section>
 
-<button id="btn">Click</button>
+
+
+<section>
+
+<h2>Escribir Mensaje</h2>
+
+<textarea name="comentarios" rows="10" cols="40" placeholder="Inserta mensaje a ocultar o desubrir"></textarea>
 
 
 </section>
 
-<section>
-  <!-- Botón ocultar -->
-    <button id="btnocultar">Ocultar</button>
 
+<section>
+<br>
+  <br>
+
+  <textarea name="comentarios" rows="10" cols="40" placeholder="¡Mira el resultado!"></textarea>
+  
+  
+  
   </section>
 
+<section>
+  
+  <!-- Botón ocultar -->
+    <button id="btnOcultar">Ocultar</button>
+
+  </section>
 
   <section>
 <!-- Botón descubrir-->
-    <button id="btndescubrir">Descubrir</button>
+    <button id="btnDescubrir">Descubrir</button>
     
   </section>
+
+
+
+
+
+
+
 
   <div id="root"></div>
 

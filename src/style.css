@@ -1,10 +1,10 @@
-.caja1 {
-  width: 20px;
-  height: 20px;
-  border: 2px solid black;
-  margin: px;
-  display: inline-block;
-  
-  
-  }
+section {
+  text-align: center;
+  margin: 2em;
+}
 
+h1 {
+font-family: 'Wallpoet', cursive;
+font-size: 50px;
+margin-left: 8em;
+}
