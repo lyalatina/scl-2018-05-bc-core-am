@@ -15,9 +15,11 @@ section {
   padding: 30px 20px 10px 10px;
 	width: 400px;
   height: 500px;
-	border-radius: 20px;
-
+  border-radius: 20px;
+}
 */
+
+
 
 h1 {
  
@@ -42,3 +44,69 @@ select {
   
 }
 
+#btnDescifrar {
+
+	background: rgb(202, 153, 19);
+
+	border: none;
+
+	border-radius: 5px;
+
+	padding: 10px;
+
+	color: white;
+
+	font-size: 16px;
+
+	transition-duration: .5s;
+
+	margin-top: 15px;
+
+}
+
+#btnCifrar {
+
+background: rgb(10, 146, 180);
+
+	border: none;
+
+	border-radius: 5px;
+
+	padding: 10px;
+
+	color: white;
+
+	font-size: 16px;
+
+	transition-duration: .5s;
+
+  margin-top: 15px;
+  
+}
+
+#btnDescifrar:hover {
+
+	background: white;
+
+	border: 1px solid rgb(208, 211, 67);
+
+	color: black;
+
+	cursor: pointer;
+
+
+
+}
+
+#btnCifrar:hover {
+
+  background: white;
+
+	border: 1px solid rgb(37, 40, 218);
+
+	color: black;
+
+	cursor: pointer;
+
+
+}
