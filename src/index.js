@@ -1,1 +1,7 @@
-/* Acá va tu código */
+window.onload = () => {
+
+//Selector desplegable
+for (let i=0; i<10; i++){
+
+
+}

@@ -9,6 +9,7 @@
 
 
 </head>
+
 <body>
 <!-- Titulo y subtitulo -->
 <header>
@@ -19,63 +20,62 @@
 
 </header>
 
+<form id = "App" name = "Cifrado/Descifrado"></form>
+
 <section>
 
   <p><strong>Posición</strong></p>
   
 
+<!-- Selector números (offset) -->
+
+<form>
+  
+  <select>
+     
+  <option value="1"</option>
+  <option value="1">1</option>
+  <option value="1">2</option>
+  <option value="1">3</option>
+  <option value="1">4</option>
+  <option value="1">5</option>
+  </select>
+</section>
+</form>
+
+<!-- Caja para escribir mensaje a descifrar -->
+<section>
+<h2></h2>
+
+<textarea class="caja_des" id="textbox" rows="10" cols="40" placeholder="Escribe un mensaje a descubrir"></textarea>
+
+<!-- Botón descubrir -->
+<br>
+<br>
+    <button class id="btnOcultar">Descifrar</button>
+
 </section>
 
-
+<!-- caja ver mensaje cifrado  -->
 <section>
 
-    <form id="form1" name="numselect" method="post" action="">
-      
-      <select id="1" name="uno">
+<textarea class="caja_cif" id="textbox" rows="10" cols="40" placeholder="Escribe un mensaje a cifrar"></textarea>
+<br>
+<br>
+  <!-- Botón cifrar-->
+  
+  <button id="btnDescubrir">Cifrar</button>
+  
+  </section>
 
-      </select>
 
+  <section>
+  <textarea class="caja_res" id="textbox" rows="15" cols="45" placeholder="Resultado"></textarea>
     </section>
 
 
-<section>
 
-<h2>Escribir Mensaje</h2>
-
-<textarea name="comentarios" rows="10" cols="40" placeholder="Inserta mensaje a ocultar o desubrir"></textarea>
-
-
-</section>
-
-
-<section>
-<br>
-  <br>
-
-  <textarea name="comentarios" rows="10" cols="40" placeholder="¡Mira el resultado!"></textarea>
-  
-  
-  
-  </section>
-
-<section>
-  
-  <!-- Botón ocultar -->
-    <button id="btnOcultar">Ocultar</button>
-
-  </section>
-
-  <section>
-<!-- Botón descubrir-->
-    <button id="btnDescubrir">Descubrir</button>
-    
-  </section>
-
-
-
-
-
-
+</form>
 
 
   <div id="root"></div>

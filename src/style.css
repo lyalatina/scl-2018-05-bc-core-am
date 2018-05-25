@@ -1,12 +1,44 @@
 section {
+
   text-align: center;
-  margin: 2em;
+  margin: 4em;
+  padding-top: 0px;
+  display: inline-block;
+  
+
 }
+
+/*#App {
+
+  margin-left: 10px;
+	background: #108d17;
+  padding: 30px 20px 10px 10px;
+	width: 400px;
+  height: 500px;
+	border-radius: 20px;
+
+*/
 
 h1 {
+ 
 font-family: 'Wallpoet', cursive;
-font-size: 50px;
-margin-left: 8em;
-padding: 8px 2px 2px;
+ font-size: 50px;
+ margin-left: 8em;
 
 }
+
+.caja_res {
+
+margin-left: 30em;
+margin-bottom: 6em;
+
+
+}
+
+select {
+  width: 50px;
+  margin-bottom: 20px;
+  margin-block-end: 20em;
+  
+}
+
