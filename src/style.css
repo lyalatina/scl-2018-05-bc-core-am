@@ -1,5 +1,5 @@
-body{
-background-image: url(https://cdn.pixabay.com/photo/2018/05/17/08/34/matrix-3408062_960_720.jpg) 
+body {
+background-image: url(https://cdn.pixabay.com/photo/2018/05/17/08/34/matrix-3408062_960_720.jpg)
 
 
 }
@@ -12,7 +12,9 @@ section {
 	display: inline-block;
 	background-color:#f7f1f7;
 	border-radius: 20px; 
-  opacity: 0,3;
+	opacity: 0,3;
+	
+	
 }
 
 
@@ -26,9 +28,16 @@ font-family: 'Wallpoet', cursive;
 
 }
 
+.caja_cif {
+position: relative;
+left: 450px;
+
+}
+
 .caja_res {
 margin-bottom: 10px;
-
+position: relative;
+right: 400px;
 
 }
 
@@ -75,7 +84,12 @@ background: rgb(10, 146, 180);
 
 	transition-duration: .5s;
 
-  margin-top: 15px;
+	margin-top: 15px;
+
+	position: relative;
+	
+	left: 450px;
+
   
 }
 
