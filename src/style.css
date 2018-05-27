@@ -1,22 +1,59 @@
 body {
-background-image: url(https://cdn.pixabay.com/photo/2018/05/17/08/34/matrix-3408062_960_720.jpg)
-
+background-image: url(https://cdn.pixabay.com/photo/2018/05/14/15/53/cyber-security-3400555_960_720.jpg)
 
 }
 
 
+	
 section {
   
 	text-align: center;
   margin: 2em;
 	display: inline-block;
-	background-color:#f7f1f7;
 	border-radius: 20px; 
-	opacity: 0,3;
-	
+	background-color: rgba(255, 255, 255, 0.274); 
+
 	
 }
 
+
+
+
+nav {
+  max-width: auto;
+  /* The mask-image gives us some extra fading. It is not necessary but without this, you can't face out the box-shadows. This clips our menu */
+  mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
+  margin: 0 auto;
+  /* Using padding instead of margin for the top and bottom here will keep our box-shadow visible and not affected by the mask-image */
+  padding: 0px;
+}
+
+nav ul {
+  text-align: left;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
+  width: 100%;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  padding: 20px;
+  font-family: "Roboto";
+  color: rgb(248, 247, 247);
+  text-shadow: 1px 1px 1px rgba(26, 214, 136, 0.157);
+  font-size: 25px;
+  text-decoration: none;
+  display: block;
+}
+
+nav ul li a:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+  background: rgba(13, 109, 69, 0.486);
+  color: rgb(233, 230, 49);
+}
 
 
 h1 {
@@ -28,9 +65,17 @@ font-family: 'Wallpoet', cursive;
 
 }
 
+p {
+color: white;
+font-size: 20px;
+
+}
+
+
 .caja_cif {
 position: relative;
 left: 450px;
+
 
 }
 
@@ -38,8 +83,11 @@ left: 450px;
 margin-bottom: 10px;
 position: relative;
 right: 400px;
+background-color: rgb(235, 243, 165);
 
 }
+
+
 
 select {
   width: 50px;
@@ -50,7 +98,7 @@ select {
 
 #btnDescifrar {
 
-	background: rgb(202, 153, 19);
+	background: rgb(15, 11, 1);
 
 	border: none;
 
@@ -70,7 +118,7 @@ select {
 
 #btnCifrar {
 
-background: rgb(10, 146, 180);
+background: rgb(5, 5, 0);
 
 	border: none;
 
@@ -119,3 +167,7 @@ background: rgb(10, 146, 180);
 
 
 }
+
+
+
+
