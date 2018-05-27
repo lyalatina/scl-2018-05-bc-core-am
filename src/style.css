@@ -1,5 +1,5 @@
 body {
-background-image: url(https://cdn.pixabay.com/photo/2018/05/14/15/53/cyber-security-3400555_960_720.jpg)
+background-image: url(http://www.hdfondos.eu/pictures/2013/0125/1/the-matrix-typograhy-symbol-calligraphy-text-pics-192887.jpg)
 
 }
 
@@ -58,15 +58,17 @@ nav ul li a:hover {
 
 h1 {
  
-font-family: 'Wallpoet', cursive;
+font-family: 'Orbitron', sans-serif;
  font-size: 50px;
  margin-left: 8em;
-
+ color: #ffffff;
+ neg
 
 }
 
 p {
-color: white;
+
+color: #ffffff;
 font-size: 20px;
 
 }
