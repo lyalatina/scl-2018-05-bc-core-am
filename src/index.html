@@ -1,90 +1,80 @@
-<!DOCTYPE html>
-<html>
-<head>
+  <!DOCTYPE html>
+ <html>
+ <head>
   <meta charset="utf-8">
   <title>Caesar Cipher</title>
   <link rel="stylesheet" href="style.css" />
   <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-</head>
+  </head>
 
         
-<body>
+  <body>
     
   <!-- Menu navegación en pagina 2 -->
     <nav>
         <ul>
-          <li>
-            <a href="">Instrucciones</a>
-          </li>
-          <li>
-              <a href="#">Chat</a>
-            </li>
-            <li>
-              <a href="#">About</a>
-          </ul>
+         <li>
+          <a href="">Instrucciones</a>
+        </ul>
+        <li>
         </nav>
 
-<!-- Titulo y subtitulo -->
-<header>
-<title>Aplicación fiesta sorpresa</title>
-<h1>Party Sorprise</h1>
+  <!-- Titulo y subtitulo -->
+  <header>
+  <title>Aplicación fiesta sorpresa</title>
+  <h1>Party Sorprise</h1>
 
 
+  </header>
 
-</header>
-
-
-<img src="" width="" height="" border="0" id="">
-
+  <!--  
+  <img src="" width="" height="" border="0" id="">
+  -->
     
-
-<section>
+  <section>
 
   <p><strong>Posición</strong></p>
   
-<!-- Selector números (offset) -->
+  <!-- Selector números (offset) -->
   
      
-    <p>Elige los espacios que deseas desplazarte para tu mensaje
-    <input type="number" min=1 max=33 placeholder=1
-      </p>
+  <p>Elige los espacios que deseas desplazarte para tu mensaje
+    <input type="number" id="key" min = 1 max = 33 placeholder = 1></p>
      
 
-<!-- Caja para escribir mensaje a descifrar -->
+<!-- descifrado -->
 
   <section>
 
-<textarea class="caja_des" id="textbox" rows="15" cols="40" placeholder="Escribe un mensaje a descifrar"></textarea>
+  <textarea class="decode" id="texdesc" rows="15" cols="40" placeholder="Descubre tu mensaje"></textarea>
 
 <!-- Botón descifrar -->
-<br>
-<br>
-    <button class id="btnDescifrar">Descifrar</button>
+   <br>
+     <br>
+  <input type="button" value="decode" id="btnDescifrar" onclick="cipherCaesar()">
 
-</section>
+  </section>
 
-<!-- caja para escribir mensaje a cifrar  -->
-<section>
-<textarea class="caja_cif" id="textbox" rows="15" cols="40" placeholder="Escribe un mensaje a cifrar"></textarea>
-<br>
-<br>
+  <!-- cifrado -->
+  <section>
+  <textarea class="encode" id="texcif" rows="15" cols="40" placeholder="Oculta tu mensaje"></textarea>
+  <br>
+  <br>
 
   <!-- Botón cifrar-->
   
-  <button id="btnCifrar">Cifrar</button>
-  
+  <input type="button" value="encode" id="btnCifrar" onclick="caesarShift()">
+
   </section>
   
-   <!-- caja resultado -->
+   <!-- escribe mensaje -->
   <section>
-  <textarea class="caja_res" id="textbox" rows="20" cols="45" placeholder="Mira tu mensaje"></textarea>
+  <textarea class="caja_res" id="ingresarMsj" rows="20" cols="45" placeholder="Escribe tu mensaje"></textarea>
+
     </section>
-
-
-
-  </section>
+      </section>
 
 
 
