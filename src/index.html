@@ -8,79 +8,49 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   </head>
-
-        
   <body>
-    
   <!-- Menu navegación en pagina 2 -->
-    <nav>
-        <ul>
-         <li>
-          <a href="">Instrucciones</a>
-        </ul>
-        <li>
-        </nav>
+  <nav>
+    <ul>
+      <li>
+        <a href="">Instrucciones</a>
+      </ul>
+      <li>
+      </nav>
 
   <!-- Titulo y subtitulo -->
   <header>
   <title>Aplicación fiesta sorpresa</title>
-  <h1>Party Sorprise</h1>
-
+  <h1>Party Sorprise</h1>  
 
   </header>
 
-  <!--  
-  <img src="" width="" height="" border="0" id="">
-  -->
-    
-  <section>
+  <div id="container">
 
+  <section>
   <p><strong>Posición</strong></p>
-  
   <!-- Selector números (offset) -->
-  
-     
   <p>Elige los espacios que deseas desplazarte para tu mensaje
-    <input type="number" id="key" min = 1 max = 33 placeholder = 1></p>
+    <input type="number" id="offset" min = 1 max = 33 placeholder = 1></p>
      
-
-<!-- descifrado -->
-
-  <section>
-
-  <textarea class="decode" id="texdesc" rows="15" cols="40" placeholder="Descubre tu mensaje"></textarea>
-
-<!-- Botón descifrar -->
-   <br>
-     <br>
-  <input type="button" value="decode" id="btnDescifrar" onclick="cipherCaesar()">
-
+  <!-- caja textos -->
+  <section class id="cajas_textos">
+    <textarea class="encode" id="textcif" rows="15" cols="40" placeholder="Oculta tu mensaje"></textarea>
+    <textarea class="caja_res" id="ingresarMsj" rows="20" cols="45" placeholder="Escribe tu mensaje"></textarea>
+    <textarea class="decode" id="textdesc" rows="15" cols="40" placeholder="Descubre tu mensaje"></textarea>
   </section>
-
-  <!-- cifrado -->
-  <section>
-  <textarea class="encode" id="texcif" rows="15" cols="40" placeholder="Oculta tu mensaje"></textarea>
-  <br>
-  <br>
-
-  <!-- Botón cifrar-->
-  
-  <input type="button" value="encode" id="btnCifrar" onclick="caesarShift()">
-
+  <!-- Botón cifrar y descifrar-->
+  <section id="botones">
+    <input type="button" value="Cifrar" id="btnCifrar" >
+    <input type="button" value="Descifrar" id="btnDescifrar">
   </section>
-  
-   <!-- escribe mensaje -->
-  <section>
-  <textarea class="caja_res" id="ingresarMsj" rows="20" cols="45" placeholder="Escribe tu mensaje"></textarea>
-
-    </section>
-      </section>
-
-
+    </div>
 
   <div id="root"></div>
-
   <script src="cipher.js"></script>
   <script src="index.js"></script>
 </body>
 </html>
+
+
+

@@ -1,30 +1,23 @@
 body {
-background-image: url(http://www.hdfondos.eu/pictures/2013/0125/1/the-matrix-typograhy-symbol-calligraphy-text-pics-192887.jpg)
+  background-image: url(http://www.hdfondos.eu/pictures/2013/0125/1/the-matrix-typograhy-symbol-calligraphy-text-pics-192887.jpg)
 
 }
 
-
-	
-section {
-  
-	text-align: center;
-  margin: 2em;
-	display: inline-block;
-	border-radius: 20px; 
-	background-color: rgba(255, 255, 255, 0.274); 
-
-	
+#container {
+  text-align: center;
+  position: relative;
+  top: 20px;
+  margin: 50px;
+  padding-top: 3%;
+  padding-bottom: 5%;
+	border-radius: 40px; 
+	background-color: rgba(255, 255, 255, 0.342); 
 }
-
-
-
 
 nav {
   max-width: auto;
-  /* The mask-image gives us some extra fading. It is not necessary but without this, you can't face out the box-shadows. This clips our menu */
   mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
   margin: 0 auto;
-  /* Using padding instead of margin for the top and bottom here will keep our box-shadow visible and not affected by the mask-image */
   padding: 0px;
 }
 
@@ -55,119 +48,76 @@ nav ul li a:hover {
   color: rgb(233, 230, 49);
 }
 
-
 h1 {
- 
-font-family: 'Orbitron', sans-serif;
- font-size: 50px;
- margin-left: 8em;
- color: #ffffff;
- neg
-
+  font-family: 'Orbitron', sans-serif;
+  font-size: 50px;
+  margin-left: 8em;
+  color: #ffffff;
 }
 
 p {
-
-color: #ffffff;
-font-size: 20px;
-
-}
-
-
-.encode {
-position: relative;
-left: 450px;
-
+  color: #dfd9d9;
+  font-size: 20px;
 
 }
 
-.caja_res {
-margin-bottom: 10px;
-position: relative;
-right: 400px;
-background-color: rgb(235, 243, 165);
-
-}
-
-
-
-select {
-  width: 50px;
-  margin-bottom: 20px;
-  margin-block-end: 20em;
-  background: rgb(228, 221, 163)
-}
-
-#btnDescifrar {
-
-	background: rgb(15, 11, 1);
-
-	border: none;
-
-	border-radius: 5px;
-
-	padding: 10px;
-
-	color: white;
-
-	font-size: 16px;
-
-	transition-duration: .5s;
-
-	margin-top: 15px;
-
-}
-
-#btnCifrar {
-
-background: rgb(5, 5, 0);
-
-	border: none;
-
-	border-radius: 5px;
-
-	padding: 10px;
-
-	color: white;
-
-	font-size: 16px;
-
-	transition-duration: .5s;
-
-	margin-top: 15px;
-
-	position: relative;
-	
-	left: 450px;
-
+.caja_textos {
+  text-align: center;
   
 }
 
-#btnDescifrar:hover {
-
-	background: white;
-
-	border: 1px solid rgb(208, 211, 67);
-
-	color: black;
-
-	cursor: pointer;
-
-
+.encode {
+  position: relative;
+  right: 20px;
 
 }
 
-#btnCifrar:hover {
+.decode {
+  position: relative;
+  left: 20px;
 
-  background: white;
+}
 
-	border: 1px solid rgb(37, 40, 218);
+  
+#btnCifrar {
+	border: none;
+	border-radius: 5px;
+  font-size: 25px;
+  width: 10%;
+	transition-duration: .5s;
+	margin-top: 15px;
+  position: relative;
+  right: 25%;
+  color: rgb(255, 255, 255);
+	background-color: black;
+}
 
+#btnDescifrar {
+	border: none;
+	border-radius: 5px;
+  font-size: 25px;
+  width: 15%;
+	transition-duration: .5s;
+  margin-top: 15px;
+  position: relative;
+  left: 27%;
+  color: rgb(255, 255, 255);
+  background-color: black;
+ 
+}
+
+#btnDescifrar:hover {
+	background: white;
+	border: 1px solid rgb(208, 211, 67);
 	color: black;
-
 	cursor: pointer;
+}
 
-
+#btnCifrar:hover {
+  background: white;
+	border: 1px solid rgb(37, 40, 218);
+	color: black;
+	cursor: pointer;
 }
 
 
