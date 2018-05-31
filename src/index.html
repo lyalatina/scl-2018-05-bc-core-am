@@ -10,40 +10,40 @@
   </head>
   <body>
   <!-- Menu navegación en pagina 2 -->
-  <nav>
-    <ul>
-      <li>
-        <a href="">Instrucciones</a>
+    <nav>
+      <ul>
+        <li>
+          <a href="">Instrucciones</a>
+        </li>
       </ul>
-      <li>
-      </nav>
+    </nav>
 
   <!-- Titulo y subtitulo -->
-  <header>
-  <title>Aplicación fiesta sorpresa</title>
-  <h1>Party Sorprise</h1>  
+    <header>
+      <title>Aplicación fiesta sorpresa</title>
+      <h1>Party Sorprise</h1>  
 
-  </header>
+    </header>
 
-  <div id="container">
-
-  <section>
-  <p><strong>Posición</strong></p>
-  <!-- Selector números (offset) -->
-  <p>Elige los espacios que deseas desplazarte para tu mensaje
-    <input type="number" id="offset" min = 1 max = 33 placeholder = 1></p>
+    <div id="container">
+      <h2><strong>Key</strong></h2>
+    <!-- Selector números (offset) -->
+      <input type="number" id="offset" min = "1" max = "33" placeholder = "1">
+      <br>
+      <br>
+      <br>
      
-  <!-- caja textos -->
-  <section class id="cajas_textos">
-    <textarea class="encode" id="textcif" rows="15" cols="40" placeholder="Oculta tu mensaje"></textarea>
-    <textarea class="caja_res" id="ingresarMsj" rows="20" cols="45" placeholder="Escribe tu mensaje"></textarea>
-    <textarea class="decode" id="textdesc" rows="15" cols="40" placeholder="Descubre tu mensaje"></textarea>
-  </section>
-  <!-- Botón cifrar y descifrar-->
-  <section id="botones">
-    <input type="button" value="Cifrar" id="btnCifrar" >
-    <input type="button" value="Descifrar" id="btnDescifrar">
-  </section>
+    <!-- caja textos -->
+      <section class id="cajas_textos">
+        <textarea class="encode" id="textcif" rows="15" cols="40" placeholder="Oculta tu mensaje"></textarea>
+        <textarea class="caja_res" id="ingresarMsj" rows="20" cols="45" placeholder="Escribe tu mensaje"></textarea>
+        <textarea class="decode" id="textdesc" rows="15" cols="40" placeholder="Descubre tu mensaje"></textarea>
+      </section>
+      <!-- Botón cifrar y descifrar-->
+      <section id="botones">
+        <input type="button" value="Cifrar" id="btnCifrar" >
+        <input type="button" value="Descifrar" id="btnDescifrar">
+      </section>
     </div>
 
   <div id="root"></div>

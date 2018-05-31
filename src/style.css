@@ -1,31 +1,31 @@
 body {
-  background-image: url(http://www.hdfondos.eu/pictures/2013/0125/1/the-matrix-typograhy-symbol-calligraphy-text-pics-192887.jpg)
-
+   background: linear-gradient(330deg, #e05252 0%, #99e052 25%, #52e0e0 50%, #9952e0 75%, #e05252 100%);
 }
 
 #container {
   text-align: center;
   position: relative;
-  top: 20px;
+  top: 50px;
   margin: 50px;
-  padding-top: 3%;
-  padding-bottom: 5%;
+  height: 35em;
+  padding-top: 1%;
+  padding-bottom: 3%;
 	border-radius: 40px; 
-	background-color: rgba(255, 255, 255, 0.342); 
+	background-color: rgba(255, 255, 255, 0.657)
 }
 
 nav {
   max-width: auto;
-  mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
+  mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0.979) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
   margin: 0 auto;
   padding: 0px;
 }
 
 nav ul {
   text-align: left;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.877) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
   width: 100%;
-  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.856), inset 0 0 1px rgba(255, 255, 255, 0.842);
 }
 
 nav ul li {
@@ -34,92 +34,99 @@ nav ul li {
 
 nav ul li a {
   padding: 20px;
-  font-family: "Roboto";
-  color: rgb(248, 247, 247);
+  font-family: 'Open Sans';
+  color: rgb(251, 255, 253);
   text-shadow: 1px 1px 1px rgba(26, 214, 136, 0.157);
-  font-size: 25px;
+  font-size: 30px;
   text-decoration: none;
   display: block;
 }
 
 nav ul li a:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
-  background: rgba(13, 109, 69, 0.486);
-  color: rgb(233, 230, 49);
+  background: rgb(196, 19, 173);
+  color: rgb(195, 241, 235);
+  border-radius: 3px;
 }
 
 h1 {
-  font-family: 'Orbitron', sans-serif;
   font-size: 50px;
-  margin-left: 8em;
+  padding-top: 2%;
+  margin-left: 9em;
   color: #ffffff;
+  font-family: 'Orbitron', sans-serif;
+}
+
+h2 {
+  font-size: 30px;
+  color: #181717;
+  
 }
 
 p {
-  color: #dfd9d9;
+  color: #ffffff;
   font-size: 20px;
-
 }
 
 .caja_textos {
   text-align: center;
-  
+}
+
+.caja_res {
+  background-color: rgb(244, 245, 195);
 }
 
 .encode {
   position: relative;
   right: 20px;
-
 }
 
 .decode {
   position: relative;
   left: 20px;
-
 }
 
-  
 #btnCifrar {
 	border: none;
 	border-radius: 5px;
   font-size: 25px;
   width: 10%;
+  height: 40px;
 	transition-duration: .5s;
 	margin-top: 15px;
   position: relative;
   right: 25%;
   color: rgb(255, 255, 255);
-	background-color: black;
+	background-color: rgb(114, 35, 114);
 }
 
 #btnDescifrar {
 	border: none;
 	border-radius: 5px;
   font-size: 25px;
-  width: 15%;
+  width: 13%;
+  height: 40px;
 	transition-duration: .5s;
   margin-top: 15px;
   position: relative;
   left: 27%;
   color: rgb(255, 255, 255);
-  background-color: black;
- 
+  background-color:rgb(114, 35, 114);
 }
 
 #btnDescifrar:hover {
-	background: white;
+	background: rgb(217, 198, 230);
 	border: 1px solid rgb(208, 211, 67);
 	color: black;
 	cursor: pointer;
 }
 
 #btnCifrar:hover {
-  background: white;
+  background:rgb(217, 198, 230);
 	border: 1px solid rgb(37, 40, 218);
 	color: black;
 	cursor: pointer;
 }
-
 
 
 
