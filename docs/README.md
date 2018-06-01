@@ -19,7 +19,7 @@ El reto incluye diseñar un producto pensando en los usuarios, construir una int
 
 ### **Introduccion a la Aplicación**.
 
-__*“Party Sorprise”*__, es una aplicación pensada en poder comunicarse con cierto grupo de personas elegidas, ya sean amigos, familiares, compañeros de trabajo, etc, sin que el festejado se pueda enterar. Especialmente usada para fiestas sorpresas, cumpleaños. 
+__*“Party Sorprise”*__, es una aplicación pensada en poder comunicarse con cierto grupo de personas elegidas, ya sean amigos, familiares, compañeros de trabajo, etc. Especialmente usada para fiestas sorpresas, cumpleaños, 
 La función es que la aplicación permita enviar mensajes de texto cifrados, (que son incomprensibles), y que solo las personas que tengan la aplicación, puedan verlo, decifrarlo y entenderlo.
 
 ¿Cómo funciona la aplicación?
