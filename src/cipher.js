@@ -16,8 +16,6 @@ window.cipher = {
     let result = "";
     for (let i = 0; i < text.length; i++) {
     let outputAscii = (text.charCodeAt(i) + 65 - parseInt(key)) % 26 + 65;
-    if (text.charCodeAt(i) !== undefined) {
-  }
     result += String.fromCharCode(outputAscii)
   }
     return result;
