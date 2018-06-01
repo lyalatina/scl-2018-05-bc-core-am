@@ -4,7 +4,6 @@ window.onload = () => {
   let textcif = document.getElementById("texCif");
   let textdesc = document.getElementById("texdesc");
 
-
   //Botones y texto cifrar
   const btnCifrar = document.getElementById("btnCifrar").addEventListener("click", () => {
   document.getElementById("textcif").innerHTML = window.cipher.encode(ingresarMsj.value.toUpperCase(), //devuele el valor convertido en mayúcula

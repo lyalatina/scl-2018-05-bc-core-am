@@ -1,9 +1,8 @@
-  window.onload = () => {
+window.onload = () => {
   let key = document.getElementById("key");
   let ingresaMsj = document.getElementById("ingresarMsj");
   let textcif = document.getElementById("texCif");
   let textdesc = document.getElementById("texdesc");
-
 
   //Botones y texto cifrar
   const btnCifrar = document.getElementById("btnCifrar").addEventListener("click", () => {
@@ -17,5 +16,6 @@
   (offset.value));
 })
   }
+
 
     
