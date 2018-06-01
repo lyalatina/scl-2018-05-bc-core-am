@@ -1,17 +1,23 @@
 # Proyecto Cifrado Cesar
-## Introducción
+## **Introducción**
 El cifrado César es uno de los primeros métodos de cifrado conocidos históricamente. Es un tipo de cifrado por sustitución en el que una letra en el texto original es reemplazada por otra letra que se encuentra un número fijo de posiciones más adelante en el alfabeto.
+
+### **Reto**
+El reto incluye diseñar un producto pensando en los usuarios, construir una interfaz, escuchar eventos básicos del DOM, escribir lógica para llevar a cabo el cifado/descifrado, tests unitarios básicos para comprobar (y documentar) dicha lógica, y finalmente manipulación del DOM para mostrar (escribir) los resultados.
 
 ### **Aplicación Party Sorprise**
 
+¿Cómo se descarga la aplicación y se instala? 
 
-¿Cómo se descarga la aplicación y se instala?
+* Clonar repositorio. 
+* Posicionado en nuestro proyecto hacer correr npm install para descargar e instalar todas las dependencias utilizadas.
 
-La aplicación se descarga en un link, que se envia por mensaje online. El receptor abre el enlace y está la aplicación.
+#### Demo
+* La aplicación se verá a traves de gh-pages http://github.com 
 
 ### **Introduccion a la Aplicación**.
 
-“Party Sorprise”, es una aplicación pensada en poder comunicarse con cierto grupo de personas elegidas, ya sean amigos, familiares, compañeros de trabajo, etc.
+__*“Party Sorprise”*__, es una aplicación pensada en poder comunicarse con cierto grupo de personas elegidas, ya sean amigos, familiares, compañeros de trabajo, etc. Especialmente usada para fiestas sorpresas, cumpleaños, 
 La funcion es que la aplicación permita enviar mensajes de texto cifrados, (que son incomprensibles), y que solo las personas que tengan la aplicación, puedan verlo, decifrarlo y entenderlo.
 
 ¿Cómo funciona la aplicación?
@@ -25,6 +31,19 @@ La funcion es que la aplicación permita enviar mensajes de texto cifrados, (que
 4. Si quieres ocultar un mensaje, debes hacer click en el botón **Cifrar**, arriba del botón en la cajita donde dice *__"Oculta tu mensaje"__* aparecerá la frase descubierta. **por ej:** Si la palabra es "Hola" y cifrar u ocultarlo, debes hacer click en cifrar y arriba aparecerá el mensaje oculto.
 
 
-**Replica**
+## **Diseño**
 
-![replica](https://fotos.subefotos.com/c0a08756744f401530d3eb8bb58c36e3o.png)
+El diseño es simple, pero colorido. Quise enfocarme en el usuario (los invitados al evento o fiesta sorpresa), creando una interfaz y estructura centrada en la facilidad, para entender y escribir el mensaje a cifrar y descifrar.
+Para ello cree: 
+1 input type, para que el usuario colocara el número de posiciones (Key).
+1 textarea para escribir el mensaje a cifrar o descifrar, destacado con color y mas grande para que sea el foco de atención del usuario, se sienta con facilidad para escribir. En un textarea, así el usuario puede escribir gran cantidad de caracteres ya que cuenta con un scroll, que como estar en un word o página web.
+2 textarea, en una aparece el mensaje a cifrar, con su respectivo botón, y en la otra lo mismo.
+Las cajas llevan un mensaje en transparencia, como ayuda y orientación de donde verá o escribirá su mensaje.
+Cree un enlace en un menú, en el top de la página, con un texto con instrucciones de la aplicación.
+
+El diseño de colores está basado en la paleta de colores fuerte y cálida, realizando un dregadé, para asemejar de manera sutil, a las luces de una bola de cristal que se usan en fiestas o eventos.
+
+## **Metodología de trabajo**
+
+Utilicé Trello como herramienta para organizar mis tareas y organizar mi tiempo.
+Como también la herramienta de comunicación Slack, para así tener una comunicación óptima con mis coach y compañeras.

@@ -17,3 +17,7 @@
   (offset.value));
 })
   }
+
+  //Gif animado
+  document.getElementById("").scr="animacion.gif"; 
+    
