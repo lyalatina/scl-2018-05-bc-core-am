@@ -5,7 +5,7 @@ El cifrado César es uno de los primeros métodos de cifrado conocidos históric
 ### **Reto**
 El reto incluye diseñar un producto pensando en los usuarios, construir una interfaz, escuchar eventos básicos del DOM, escribir lógica para llevar a cabo el cifado/descifrado, tests unitarios básicos para comprobar (y documentar) dicha lógica, y finalmente manipulación del DOM para mostrar (escribir) los resultados.
 
-### **Aplicación Party Sorprise**
+### **Aplicación Party Surprise**
 
 ¿Cómo se descarga la aplicación y se instala? 
 
@@ -13,13 +13,13 @@ El reto incluye diseñar un producto pensando en los usuarios, construir una int
 * Debes instalar Git en tu computador, si tienes sistema operativo Linux/MacOS puedes usar la terminal. Si tienes Windows, GitBash.
 * Posicionado en nuestro proyecto hacer correr npm install para descargar e instalar todas las dependencias utilizadas.
 
-
 #### Demo
+
 * La aplicación se verá con gh-pages.
 
 ### **Introduccion a la Aplicación**.
 
-__*“Party Sorprise”*__, es una aplicación pensada en poder comunicarse con cierto grupo de personas elegidas, ya sean amigos, familiares, compañeros de trabajo, etc, sin que el festejado se pueda enterar. Especialmente usada para fiestas sorpresas, cumpleaños. 
+__*“Party Surprise”*__, es una aplicación pensada en poder comunicarse con cierto grupo de personas elegidas, ya sean amigos, familiares, compañeros de trabajo, etc, sin que el festejado se pueda enterar. Especialmente usada para fiestas sorpresas, cumpleaños. 
 La función es que la aplicación permita enviar mensajes de texto cifrados, (que son incomprensibles), y que solo las personas que tengan la aplicación, puedan verlo, decifrarlo y entenderlo.
 
 ¿Cómo funciona la aplicación?

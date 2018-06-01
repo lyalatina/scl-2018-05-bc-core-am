@@ -1,4 +1,4 @@
-  window.onload = () => {
+window.onload = () => {
   let key = document.getElementById("key");
   let ingresaMsj = document.getElementById("ingresarMsj");
   let textcif = document.getElementById("texCif");
